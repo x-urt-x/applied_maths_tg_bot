@@ -1,0 +1,15 @@
+users_db:
+[
+    {
+        //mandatory information
+        "tg_id" : "",
+        "tg_name" : "@name"
+        "roles" : "12", //binary flags | | | |'| |support|admin|ban|
+        //optional information
+        "name" : "name",
+        "group" : "AB-231",
+        "age" : "19"
+    },
+    {
+    }
+]
