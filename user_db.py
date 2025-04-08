@@ -1,7 +1,7 @@
 from tinydb import TinyDB, Query
 from collections import OrderedDict
 
-USER_ROLE_CACHE_SIZE = 20
+from config import USER_ROLE_CACHE_SIZE
 
 ROLE_ADMIN = 0b00000010
 ROLE_BAN = 0b00000001
